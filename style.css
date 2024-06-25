@@ -1,0 +1,219 @@
+*{
+    margin: 0 ;
+    padding: 0;
+}
+header{
+    background-color: rgb(247, 131, 54);
+    border-bottom: 20px;
+    box-shadow: 0 0 70px; color: black;
+}
+.header-contenedor img{
+    height: 70%;
+    width: 60%;
+    margin: 10px;
+    min-height: 5px;
+}
+.header-contenedor{
+    display: flex;
+    justify-content: space-between;
+    width: 992px;
+    margin: 0 auto;
+}
+ul{
+    padding: 30px;
+    display: flex;
+    flex-direction: row-reverse;
+    list-style: none;
+    gap: 10px;
+    font-size: 18px;
+}
+.header-contenedor nav a:link , .header-contenedor nav a:visited{
+    padding: 2px 2px;
+    text-decoration: none;
+    color: white;
+}
+.header-contenedor nav a:hover {
+    color: rgb(55, 101, 252);
+}
+.banner{
+    padding: 10%;
+    background-image: url(imagenes/fondo-4.jpg);  
+    background-size: cover;
+    background-position: center;  
+    box-shadow: 0 0 20px; color: rgba(0, 0, 0, 0.3);
+    
+}
+.banner-contenedor{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    margin: 20px;
+}
+.banner-contenedor h1{
+    margin: 10px;
+}
+body{
+    background-color: rgb(253, 165, 58);
+}
+.venta{
+    background-color: rgba(54, 54, 54, 0.082);
+    margin: 50px;
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+.Producto{
+    padding: 5px;
+    margin:0 auto;
+}
+.Producto p{
+    color: rgb(132, 0, 255);
+}
+.venta img{
+    height: 300px;
+    width: 200px;
+}
+.venta h2 , .venta p{
+    font-size: 14px;
+    text-align: center;
+    padding-bottom: 15px;
+}
+.equipo{
+    display: flex;
+    height: 350px;
+    margin: 4%;
+    justify-content: space-evenly;
+    border: 1px solid black;
+}
+.equipo h2{
+    font-size: 12px;
+    padding: 1em auto;
+    color: rgb(3, 27, 105);
+    height: 30px;
+}
+.equipo h3{
+    font-size: 14px;
+    color: rgb(0, 0, 0);
+}
+#letra{
+    color: rgb(89, 17, 104);
+}
+.equipo img{
+    margin: 10px;
+    height: 70%;
+}
+#noti-publi{
+    height: 400px;
+}
+.noticias{
+    height: 513px;
+    width: 850px;
+    float: left;
+    color: black;
+}
+.noti{
+    width:600px;
+    margin-bottom: 20px;
+    border: 1px solid black;
+    padding: 1em;
+    margin: 0 auto;
+    background-color: rgb(255, 255, 255);
+}
+.noti h3{
+    padding: 1em;
+}
+#noti h5 a{
+    float: right;
+}
+#noti{
+    padding: 1em;
+    margin: 3%;
+}
+#noti h2{
+    margin-bottom: 20px;
+}
+#noti h5 a{
+    text-decoration: none;
+    color: white;
+    margin-top: 20px;
+}
+.galeria{
+    display: flex;
+    width: 800px;
+    height: 430px;
+    margin-top: 130px;
+    padding-left: 300px;
+}
+.galeria img{
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .8;
+    transition: .5s ease;
+}
+.galeria img:hover {
+    cursor: crosshair;
+    width: 300px;
+    opacity: 1;
+    filter: contrast(120%);
+}
+.footer{
+    background-color:  rgb(247, 131, 54);
+    min-height: 100px;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.social-icon{
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 10px 10px;
+}
+.icon-elem{
+    list-style: none;
+    gap: 20px;
+}
+.social-icon p{
+    margin-bottom: 20px;
+    color: white;
+    font-size: 12px;
+    margin: 2px;
+}
+.icon{
+    color: white;
+    font-size: 32px;
+    display: inline-block;
+    margin: 0 10px;
+    transition: 0.5s;
+}
+.iconv{
+    color: white;
+    font-size: 32px;
+    transition: 0.5s;
+    float: right;
+    width: 90px;
+}
+.icon:hover{
+    transform: translateY(-10px);
+}
+#duelo{
+    margin-top: 3px;
+    background-image: url(imagenes/duelo-2.jpg);
+    background-size: cover;
+    background-position: center; 
+    color: rgb(255, 255, 255);
+}
+#multi-libros{
+    margin-top: 3px;
+    background-image: url(imagenes/hotel-valhalla.jpg);
+    background-size: cover;
+    background-position: center; 
+    color: rgb(255, 255, 255);
+}
+#blood{
+    margin-top: 3px;
+    background-image: url(imagenes/44.jpg);
+    background-size: cover;
+    background-position: center; 
+    color: rgb(255, 255, 255);
+}

@@ -1,0 +1,231 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.ttproducto{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: linear-gradient(rgb(68, 138, 170), #1c1b57 );
+}
+.tablas{
+    border: solid 1px rgba(255, 255, 255, 0,2);
+}
+table{
+    color: white;
+    font-size: 14px;
+    table-layout: fixed;
+    border-collapse: collapse;
+}
+h1{
+    padding: 20px;
+    color: white;
+}
+thead{
+    background-color: orange;
+}
+th{
+    padding: 2px 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+td{
+    padding: 15px;
+    border-bottom: solid 1px rgba(255, 166, 0, 0.795);
+}
+#compra{
+    background-color: #309c3f;
+}
+td a{
+    text-decoration: none;
+    color: white;
+    margin: 1px;
+}
+tbody tr{
+    cursor: pointer;
+}
+tbody tr:hover{
+    background-color: #5b0c5e;
+}
+
+tr img{
+    height: 120px;
+    width: 90px;
+}
+
+
+header{
+    background-color: rgb(247, 131, 54);
+    border-bottom: 20px;
+    box-shadow: 0 0 70px; color: black;
+}
+.header-contenedor img{
+    height: 70%;
+    width: 60%;
+    margin: 10px;
+    min-height: 5px;
+}
+.header-contenedor{
+    display: flex;
+    justify-content: space-between;
+    width: 992px;
+    margin: 0 auto;
+}
+ul{
+    padding: 30px;
+    display: flex;
+    flex-direction: row-reverse;
+    list-style: none;
+    gap: 10px;
+    font-size: 18px;
+}
+.header-contenedor nav a:link , .header-contenedor nav a:visited{
+    padding: 2px 2px;
+    text-decoration: none;
+    color: white;
+}
+.header-contenedor nav a:hover {
+    color: rgb(55, 101, 252);
+}
+.footer{
+    background-color:  rgb(247, 131, 54);
+    min-height: 100px;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.social-icon{
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 10px 10px;
+}
+.icon-elem{
+    list-style: none;
+    gap: 20px;
+}
+.social-icon p{
+    margin-bottom: 20px;
+    color: white;
+    font-size: 12px;
+    margin: 2px;
+}
+.icon{
+    color: white;
+    font-size: 32px;
+    display: inline-block;
+    margin: 0 10px;
+    transition: 0.5s;
+}
+.icon:hover{
+    transform: translateY(-10px);
+}
+
+
+.cuadro{
+    margin: 70px;
+    padding: 9px;
+    display: flex;
+}
+body{
+    background: linear-gradient(rgb(68, 138, 170), #1c1b57 );
+}
+#h1{
+    margin-top: 20px;
+    color: rgb(5, 240, 17);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.cuadrito{
+    width: 70%;
+}
+.cuadrito img{
+    height: 200px;
+    width: 200px;
+}
+.aside{
+    width: 30%;
+    translate: 20px;
+}
+.aside img{
+    translate: -50px;
+    width: 263px;
+    margin-left: 100px;
+}
+.barra{
+    position: relative;
+    width: 890px;
+    background-color: rgba(245, 242, 242, 0.534);
+    padding: 0 20px;
+}
+.barra .skill{
+    margin: 20px 0;
+}
+.barra .skill p{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.barra .skill .progress{
+    position: relative;
+    width: 100%;
+    background-color: gray;
+    height: 6px;
+    border-radius: 6px;
+    overflow: hidden;
+    margin: 5px 0;
+}
+.barra .skill .progress::before{
+    content:'';
+    position: absolute;
+    width: var(--wth);
+    height: 100%;
+    background-color: #e21919;
+}
+#ff{
+    background-color: gray;
+    color: rgb(21, 255, 0);
+    text-align: center;
+}
+.body{
+    min-height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: grey;
+}
+.footer{
+    background-color:  rgb(247, 131, 54);
+    min-height: 100px;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.social-icon{
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 10px 10px;
+}
+.icon-elem{
+    list-style: none;
+    gap: 20px;
+}
+.social-icon p{
+    margin-bottom: 20px;
+    color: white;
+    font-size: 12px;
+    margin: 2px;
+}
+.icon{
+    color: white;
+    font-size: 32px;
+    display: inline-block;
+    margin: 0 10px;
+    transition: 0.5s;
+}
+.icon:hover{
+    transform: translateY(-10px);
+}
